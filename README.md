@@ -39,12 +39,5 @@ This version of the Flappy Bird game was developed using **Unity** and features 
 3. For mobile platforms, follow the respective build steps for Android or iOS to deploy the game to a device.
 
 ## **Credits**
-
-- **Game Development**: [Your Name]
+- **Game Development**: Mutyala Siddhartha Koushik
 - **Unity Engine**: Unity Technologies
-- **Graphics**: [If using custom graphics, list the author here]
-- **Sound Effects**: [If applicable, credit sound libraries or creators]
-
-## **License**
-
-This project is open-source and free to use, modify, and distribute under the [insert license name here, e.g., MIT License] license.
