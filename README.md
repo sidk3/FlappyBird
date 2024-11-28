@@ -1,43 +1,57 @@
-# **Flappy Bird Game - Unity**
+# Flappy Bird Clone Game - ReadMe
 
-## **Overview**
-Flappy Bird is a simple, yet addictive, 2D arcade game where you control a bird that must navigate through a series of pipes. The objective is to keep the bird in the air, avoiding obstacles, and try to achieve the highest score possible by flying through the gaps between pipes.
+## Game Overview:
+Welcome to the Flappy Bird Clone! This is a simple and addictive 2D side-scrolling game where you control a bird and try to avoid incoming pipes. The goal is to survive as long as possible and achieve the highest score. The game ends when the bird collides with a pipe or falls below a certain height.
 
-This version of the Flappy Bird game was developed using **Unity** and features intuitive controls and challenging gameplay. The bird automatically falls due to gravity, and the player must tap the screen to make it flap and rise temporarily. The game gets progressively harder as the player advances.
+## Features:
+### Flap Mechanism:
+- Tap the space bar to make the bird "flap" and rise. If you don't flap, gravity will pull the bird down.
 
-## **Features**
-- **Flappy Bird Mechanics**: Tap the screen to make the bird flap and fly upward, while gravity causes it to fall.
-- **Endless Gameplay**: The game continues as long as the bird does not collide with any pipes or the ground.
-- **Dynamic Obstacles**: Pipes appear at varying heights with gaps for the bird to pass through. The gaps also change in size as the game progresses.
-- **Score System**: The score increases each time the bird successfully flies through a pipe gap. The current score is displayed on the screen.
-- **Game Over Screen**: The game ends when the bird hits a pipe or the ground, and the final score is shown on the screen with an option to restart.
+### Pipes:
+- The pipes appear randomly at different heights, and you must avoid hitting them.
 
-## **Controls**
-- **PC / Web**: Press the space bar or click the mouse to make the bird flap and rise.
-- **Mobile**: Tap anywhere on the screen to make the bird flap and rise.
+### Score:
+- Every time you successfully navigate through a pair of pipes, your score increases.
 
-## **How to Play**
-1. **Start the Game**: Click on the 'Start' button or tap anywhere on the screen to begin the game.
-2. **Navigate the Bird**: Tap or click to make the bird flap its wings and rise in the air.
-3. **Avoid Obstacles**: Navigate the bird through the gaps between the pipes. Avoid touching the pipes or the ground.
-4. **Score**: For each gap the bird successfully flies through, you score one point.
-5. **Game Over**: The game ends if the bird collides with a pipe or touches the ground. Your final score will be displayed.
+### Game Over Screen:
+- When the game ends, a Game Over screen appears with the option to retry.
 
-## **Game Controls**
+### Credits Screen:
+- After the game is over, a "Made by" credit screen will display your name.
 
-- **Tap / Click**: Makes the bird flap and rise.
-- **Spacebar** (PC version): Tap the spacebar to make the bird flap and rise.
+## Installation Instructions:
 
-## **Installation**
+### System Requirements:
+- Windows 7/10 or newer (for now)
+- Unity Engine 
+- Graphics card capable of running Unity 2D games (any modern GPU)
 
-1. Download the game package from the repository or build it from Unity.
-2. If building from Unity:
-   - Open the Unity project.
-   - Go to **File** > **Build Settings**.
-   - Select your platform (PC, Mac, Web, Android, iOS, etc.).
-   - Click **Build** and save the executable to your desired location.
-3. For mobile platforms, follow the respective build steps for Android or iOS to deploy the game to a device.
+## How to Play:
 
-## **Credits**
-- **Game Development**: Mutyala Siddhartha Koushik
-- **Unity Engine**: Unity Technologies
+### Start the Game:
+- When you run the game, the bird will automatically fall due to gravity.
+
+### Control the Bird:
+- Press the Space bar to make the bird flap its wings and rise. Let go of the space bar to allow gravity to pull the bird down.
+
+### Avoid the Pipes:
+- As the bird moves forward, pipes will appear. You must navigate through the gaps between them without hitting them or falling too low.
+
+![Main image](https://github.com/sidk3/FlappyBird/blob/main/Main.png)
+
+### Score:
+- Your score increases each time you pass a pair of pipes.
+
+### Game Over:
+- If you hit a pipe or fall too low, the game will end and a "Game Over" screen will appear. You can press Retry to restart the game and try for a higher score.
+
+![Retry image](https://github.com/sidk3/FlappyBird/blob/main/Retry.png)
+
+## Controls:
+- **Space Bar:** Flap the bird's wings to make it rise.
+- **Game Over Screen:** After the bird dies, you can click Retry to restart the game.
+
+## Credits:
+- **Game Created By:** Mutyala Siddhartha Koushik
+- **Game Engine:** Unity
+- **Font Used:** TextMeshPro, Liberation Font
